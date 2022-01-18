@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fluxxy</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+
+        <a href="#" class="logo"><i class="fas fa-utensils"></i> Fluxxy.</a>
+    
+        <nav class="navbar">
+            <a class="active" href="#">beranda</a>
+            <a href="#menu">menu</a>
+            <a href="#about">eksplore</a>
+            <a href="#order">order</a>
+            <a href="#review">review</a>
+            <a href="register.html">sign up</a>
+        </nav>
+        
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+    
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/dish-1.png" alt="">
+                <div class="content">
+                    <h3>Burger Beef</h3>
+                    <span class="price">Rp 15.000</span>
+                    <span class="quantity">qty: 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/dish-2.png" alt="">
+                <div class="content">
+                    <h3>Nugget</h3>
+                    <span class="price">Rp 25.000</span>
+                    <span class="quantity">qty: 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/dish-6.png" alt="">
+                <div class="content">
+                    <h3>Fried Chicken</h3>
+                    <span class="price">Rp 20.000</span>
+                    <span class="quantity">qty: 1</span>
+                </div>
+            </div>
+            <div class="total"> total : Rp 60.000</div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+    
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="register.html">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+    </header>
+
+    <form id="cari"> 
+        <h1>Hi,Rizal Pratama</h1>
+        <p>Apa yang ingin kamu makan hari ini?</p>
+        <input type="search" placeholder="Ketikkan menu anda...." class="cari-menu">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="box-container" id="menu">
+        <div id="box">
+            <div class="box-sub">
+                <a href="makanan.html"><img src="images/makanan.jpg" alt="pict" class="menu"></a>
+                <h3>Makanan</h3>
+            </div>
+        </div>
+        <div id="box">
+            <div class="box-sub">
+                <a href="minuman.html"><img src="images/minuman.jpg" alt="pict" class="menu"></a>
+                <h3>Minuman</h3>
+            </div>
+        </div>
+        <div id="box">
+            <div class="box-sub">
+                <a href="fastfood.html"><img src="images/fastfood.jpg" alt="pict" class="menu"></a>
+                <h3>Fast Food</h3>
+            </div>
+        </div>
+        <div id="box">
+            <div class="box-sub">
+                <a href="dessert.html"><img src="images/dessert.jpg" alt="pict" class="menu"></a>
+                <h3>Dessert</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="tampilan">
+        <p>Terdekat dengan kamu</p>
+    </div>
+    
+    <div class="box-container2">
+        <div id="box2">
+            <div class="box-sub2">
+                <img src="images/mie.jpg" alt="pict" class=menu2>
+                <p>0.5 km</p>
+                <h3>Mie Kuah Neraka</h3>
+                <h4>Rp 10.000</h4>
+                <p><a href="#order" class="tombol">Order Now</a></p>
+            </div>
+        </div>
+        <div id="box2">
+            <div class="box-sub2">
+                <img src="images/mie2.jpg" alt="pict" class=menu2>
+                <p>0.7 km</p>
+                <h3>Mie Ruwet</h3>
+                <h4>Rp 13.000</h4>
+                <p><a href="#order" class="tombol">Order Now</a></p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="tampilan">
+        <p>Jangan Lupa Minumnya Ya...</p>
+    </div>
+    
+    <div class="box-container2">
+        <div id="box2">
+            <div class="box-sub2">
+                <img src="images/matcha.jpg" alt="pict" class=menu2>
+                <p>0.13 km</p>
+                <h3>Matcha Latte</h3>
+                <h4>Rp 15.000</h4>
+                <p><a href="#order" class="tombol">Order Now</a></p>
+            </div>
+        </div>
+        <div id="box2">
+            <div class="box-sub2">
+                <img src="images/kopi.jpg" alt="pict" class=menu2>
+                <p>0.17 km</p>
+                <h3>Macchiato</h3>
+                <h4>Rp 20.000</h4>
+                <p><a href="#order" class="tombol">Order Now</a></p>
+            </div>
+        </div>
+    </div>
+
+    <section class="about" id="about">
+
+        <h3 class="sub-heading"> about us </h3>
+        <h1 class="heading"> why choose us? </h1>
+    
+        <div class="row">
+    
+            <div class="image">
+                <img src="images/about.png" alt="pict">
+            </div>
+    
+            <div class="content">
+                <h3>best service and delivery</h3>
+                <p>Fluxxy adalah sebuah web digital masa kini yang berfungsi untuk memesan food and beverages.</p>
+                <p>Fluxxy dirancang untuk para pengguna bisa merasakan kemudahan dalam memesan sebuah makanan secara delivery yang diinginkannya secara online kapanpun dan dimanapun.</p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>free delivery</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>easy payments</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7 service</span>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    
+    </section>
+
+    <section class="order" id="order">
+
+        <h3 class="sub-heading"> order now </h3>
+        <h1 class="heading"> free and fast </h1>
+    
+        <form action="">
+    
+            <div class="inputBox">
+                <div class="input">
+                    <span>your name</span>
+                    <input type="text" placeholder="enter your name">
+                </div>
+                <div class="input">
+                    <span>your number</span>
+                    <input type="number" placeholder="enter your number">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>your order</span>
+                    <input type="text" placeholder="enter food name">
+                </div>
+                <div class="input">
+                    <span>additional food</span>
+                    <input type="test" placeholder="extra with food">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>how much</span>
+                    <input type="number" placeholder="how many orders">
+                </div>
+                <div class="input">
+                    <span>date and time</span>
+                    <input type="datetime-local">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>your address</span>
+                    <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="input">
+                    <span>your message</span>
+                    <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+    
+            <input type="submit" value="order now" class="tombol">
+    
+        </form>
+    
+    </section>
+
+    <!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h3 class="sub-heading"> customer's review </h3>
+    <h1 class="heading"> what they say </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/pic-1.png" alt="">
+                    <div class="user-info">
+                        <h3>Alex Richard</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Pelayanan ramah dan sangat cepat sekali pesanan saya datang. Saya senang berbelanja makanan disini.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/pic-2.png" alt="">
+                    <div class="user-info">
+                        <h3>Sisca Kohl</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Pelayanannya sungguh memuaskan.Pesanan saya cepat sekali datang. Thanks you Fluxxy.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/pic-3.png" alt="">
+                    <div class="user-info">
+                        <h3>Steven</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Pelayanan ramah, kurir pengantar pesanan saya cepat. Semoga ke depannya pelayanannya terus seperti ini. </p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/pic-4.png" alt="">
+                    <div class="user-info">
+                        <h3>Sarah</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Pesan makanan disini pelayanan sangat memuaskan dan cepat sekali orderan saya sampai.Thanks you Fluxxy.</p>
+            </div>
+
+        </div>
+
+    </div>
+    
+</section>
+
+<!-- review section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3><i class="fas fa-utensils"></i>  Fluxxy. </h3>
+            <p>Don't forget to follows our social media.</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +62-858-0021-4839 </a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +62-812-2650-4875 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> rizalpratama488@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Semarang, Jawa Tengah</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Beranda </a>
+            <a href="#menu" class="links"> <i class="fas fa-arrow-right"></i> Menu </a>
+            <a href="#about" class="links"> <i class="fas fa-arrow-right"></i> Eksplore </a>
+            <a href="#order" class="links"> <i class="fas fa-arrow-right"></i> Order </a>
+            <a href="#review" class="links"> <i class="fas fa-arrow-right"></i> Review </a>
+            <a href="register.html" class="links"> <i class="fas fa-arrow-right"></i> Sign Up </a>
+        </div>
+
+        <div class="box">
+            <h3>join with us!</h3>
+            <p>subscribe to get updated information</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="tombol">
+            <img src="images/payment.png" class="payment-img" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span> Rizal Pratama </span> | all rights reserved </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- script javascript -->
+<div class="loader-container">
+    <img src="images/loader.gif" alt="">
+</div>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="fluxxy.js"></script>
+
+</body>
+</html>
